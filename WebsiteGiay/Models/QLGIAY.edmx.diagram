@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8c12592c5262436996e42fa9f02c538b" Name="Diagram1">
+        <EntityTypeShape EntityType="QLGIAYModel.BAIVIET" Width="1.5" PointX="10" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.CTHOADON" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.GIAY" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.HINH" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.HINHSP" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.HOADON" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.LOAIGIAY" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.NHANVIEN" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLGIAYModel.SIZE" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="QLGIAYModel.PK_MANV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLGIAYModel.PK_CTHD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLGIAYModel.PK_HINH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLGIAYModel.PK_MALOAI" ManuallyRouted="false" />
+        <AssociationConnector Association="QLGIAYModel.PK_SIZES" ManuallyRouted="false" />
+        <AssociationConnector Association="QLGIAYModel.PK_MAKH" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,12 @@
+﻿
+@using WebsiteGiay.Models
+@model List<GIAY>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li><a href="#"><img src="~/Images/imgGiay/@item.HinhMinhHoa" alt=" " class="img-responsive" /></a></li>
+        @*<p><a href="@Url.Action("#", "#", new { @maLoaiGiay=item.MaLoai })" class="aCacHD">@item.TenLoai</a></p>*@
+
+    }
+</ul>

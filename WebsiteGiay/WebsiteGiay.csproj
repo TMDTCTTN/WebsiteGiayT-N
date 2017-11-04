@@ -473,11 +473,9 @@
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\_GiayMenuPartial.cshtml" />
-    <Content Include="Views\Home\_NewGiayFooterPartial.cshtml" />
-    <Content Include="Views\Home\_GiayBBPartial.cshtml" />
     <Content Include="Views\Home\_GiayBupBePartial.cshtml" />
-    <Content Include="Views\Home\demo.cshtml" />
+    <Content Include="Views\Home\_NewGiayFooterPartial.cshtml" />
+    <Content Include="Views\Home\_GiayMenuPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
